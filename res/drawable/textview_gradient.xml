@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- 进行按钮背景形状设置 -->
+
+    <corners android:radius="5dip" />
+    <!-- 弧度 -->
+
+    <gradient
+        android:endColor="#00ff0000"
+        android:startColor="#ff0000" />
+    <!-- 渐变色 -->
+
+    <solid android:color="#adadad" />
+    <!-- 填充 -->
+
+    <stroke
+        android:dashGap="5dip"
+        android:dashWidth="5dip"
+        android:width="3dip"
+        android:color="#000000" />
+    <!-- 边框设置 -->
+
+</shape>

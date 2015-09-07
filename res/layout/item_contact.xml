@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dip" 
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_contact_name"
+        android:layout_width="wrap_content"
+        android:textSize="24sp"
+        android:layout_height="30dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dip"
+        android:text="姓名" />
+
+    <TextView
+        android:id="@+id/tv_contact_phone"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_marginRight="10dip"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:text="电话" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 用来定义按钮在各种状态下的背景变化情况 -->
+    <item android:drawable="@drawable/textview_gradient" android:state_pressed="true"/>
+    <!-- pressed  点击状态 -->
+    <item android:drawable="@drawable/textview_gradient" android:state_focused="true"/>
+    <!-- focused -->
+    <item android:drawable="@drawable/textview_gradient" android:state_hovered="true"/>
+    <!-- hovered -->
+    <item android:drawable="@drawable/textview_gradient_normal"/>
+    <!-- default 默认状态 -->
+
+</selector>
